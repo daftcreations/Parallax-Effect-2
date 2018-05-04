@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 200%;
+    background-color:#0A2B3E;
+}
+#main{
+    width: 92%;
+    height: 560px;
+    background: linear-gradient(#66FFFD,#FFF);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+#logo{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    margin-top: -50px;
+    text-align: center;
+}
+#mountainImg{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:250px;
+}
+#btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: linear-gradient(#8EFFFc,#6AF0D5);
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    box-shadow: 0 0 0 8px rgba(140,237,243,.2),0 0 0 16px rgba(140,237,243,.3);
+    cursor: pointer;
+}
+#btn img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
